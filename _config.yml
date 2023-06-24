@@ -7,7 +7,7 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: xbl
 language: en
 timezone: 'Asia/Shanghai'
 
@@ -103,3 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  repository: https://github.com/c1pyerten/c1pyerten.github.io
+  branch: master
