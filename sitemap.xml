@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://c1pyerten.github.io/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+    <loc>https://c1pyerten.github.io/categories/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://c1pyerten.github.io/categories/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+    <loc>https://c1pyerten.github.io/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/posts/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/tags/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/tags/vscode/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/categories/vscode/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,17 +58,7 @@
   </url>
   
   <url>
-    <loc>https://c1pyerten.github.io/2021/05/golang%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://c1pyerten.github.io/posts/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://c1pyerten.github.io/tags/</loc>
+    <loc>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url>
   

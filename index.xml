@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BitComet</title>
+    <title>hzz Blog</title>
     <link>https://c1pyerten.github.io/</link>
-    <description>Recent content on BitComet</description>
+    <description>Recent content on hzz Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://c1pyerten.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Golang在编译时注入版本信息</title>
-      <link>https://c1pyerten.github.io/2021/05/golang%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</link>
+      <title>VSCode 中那些你可能错过的插件</title>
+      <link>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E6%8F%92%E4%BB%B6/</guid>
+      <description>TODO</description>
+    </item>
+    
+    <item>
+      <title>VSCode 中那些你可能错过的配置</title>
+      <link>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://c1pyerten.github.io/2022/05/vscode-%E4%B8%AD%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%94%99%E8%BF%87%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;VsCode中settings.json可以进行许多个性化配置, 其中官方预设了大部分使用的配置, 其中一下是一些你可能错过的设置.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Golang 在编译时注入版本信息</title>
+      <link>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://c1pyerten.github.io/2021/05/golang%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</guid>
-      <description>方法一: 使用 -ldflags package version var ( Commit string ) go build -ldflags=&amp;#34;-X app/package/version.Commit=$(git rev-parse HEAD)&amp;#34; 通常配合Makefile等构建工具
-方法二: Go1.18以上时, 使用 debug.ReadBuildInfo() var Commit = func() string { if info, ok := debug.ReadBuildInfo(); ok { for _, setting := range info.Settings { if setting.Key == &amp;#34;vcs.revision&amp;#34; { return setting.Value } } } return &amp;#34;&amp;#34; }() 问题 CICD平台使用时, 由于是在容器中进行构建, 此时需要在镜像构建时注入信息
-...ARG VERSIONENV VERSION $VERSIONARG BUILD_TIMESTAMPENV BUILD_TIMESTAMP $BUILD_TIMESTAMP...docker build -t &amp;#34;$TAG&amp;#34; -t &amp;#34;$LATEST&amp;#34; --build-arg VERSION=&amp;#34;$VERSION&amp;#34; --build-arg BUILD_TIMESTAMP=&amp;#34;$BUILD_TIMESTAMP&amp;#34; .</description>
+      <guid>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等&lt;/p&gt;</description>
     </item>
     
   </channel>

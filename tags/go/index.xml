@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>go on BitComet</title>
+    <title>go on hzz Blog</title>
     <link>https://c1pyerten.github.io/tags/go/</link>
-    <description>Recent content in go on BitComet</description>
+    <description>Recent content in go on hzz Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>Golang在编译时注入版本信息</title>
-      <link>https://c1pyerten.github.io/2021/05/golang%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</link>
+      <title>Golang 在编译时注入版本信息</title>
+      <link>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://c1pyerten.github.io/2021/05/golang%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</guid>
-      <description>方法一: 使用 -ldflags package version var ( Commit string ) go build -ldflags=&amp;#34;-X app/package/version.Commit=$(git rev-parse HEAD)&amp;#34; 通常配合Makefile等构建工具
-方法二: Go1.18以上时, 使用 debug.ReadBuildInfo() var Commit = func() string { if info, ok := debug.ReadBuildInfo(); ok { for _, setting := range info.Settings { if setting.Key == &amp;#34;vcs.revision&amp;#34; { return setting.Value } } } return &amp;#34;&amp;#34; }() 问题 CICD平台使用时, 由于是在容器中进行构建, 此时需要在镜像构建时注入信息
-...ARG VERSIONENV VERSION $VERSIONARG BUILD_TIMESTAMPENV BUILD_TIMESTAMP $BUILD_TIMESTAMP...docker build -t &amp;#34;$TAG&amp;#34; -t &amp;#34;$LATEST&amp;#34; --build-arg VERSION=&amp;#34;$VERSION&amp;#34; --build-arg BUILD_TIMESTAMP=&amp;#34;$BUILD_TIMESTAMP&amp;#34; .</description>
+      <guid>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等&lt;/p&gt;</description>
     </item>
     
   </channel>
