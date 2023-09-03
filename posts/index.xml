@@ -26,7 +26,7 @@
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/</guid>
-      <description>&lt;p&gt;Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等&lt;/p&gt;</description>
+      <description>&lt;p&gt;Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等&lt;/p&gt;</description>
     </item>
     
   </channel>

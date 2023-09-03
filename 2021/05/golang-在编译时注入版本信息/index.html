@@ -34,7 +34,7 @@
     }
     
   },
-  "description": "Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等\n",
+  "description": "Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等\n",
   "keywords": []
 }
 
@@ -45,18 +45,18 @@
 <meta name="generator" content="Hugo 0.68.3 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="hzz">
 <meta name="keywords" content="">
-<meta name="description" content="Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等">
+<meta name="description" content="Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等">
 
 
-<meta property="og:description" content="Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等">
+<meta property="og:description" content="Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Golang 在编译时注入版本信息">
 <meta name="twitter:title" content="Golang 在编译时注入版本信息">
 <meta property="og:url" content="https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/">
 <meta property="twitter:url" content="https://c1pyerten.github.io/2021/05/golang-%E5%9C%A8%E7%BC%96%E8%AF%91%E6%97%B6%E6%B3%A8%E5%85%A5%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF/">
 <meta property="og:site_name" content="hzz Blog">
-<meta property="og:description" content="Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等">
-<meta name="twitter:description" content="Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等">
+<meta property="og:description" content="Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等">
+<meta name="twitter:description" content="Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等">
 <meta property="og:locale" content="en-us">
 
   
@@ -101,7 +101,7 @@
 
     <title>Golang 在编译时注入版本信息</title>
 
-    <link rel="icon" href="https://c1pyerten.github.io/favicon.png">
+    <link rel="icon" href="https://c1pyerten.github.io/favicon.svg">
     
 
     
@@ -283,7 +283,7 @@
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
-              <p>Golang 如何在编译时注入版本相关元信息, 如何 git commit hash, 构建时timestamp, git tag 等</p>
+              <p>Golang 如何在编译时注入版本相关元信息, 如 git commit hash, git tag, 构建时timestamp 等</p>
 <h2 id="方法一-使用--ldflags">方法一: 使用 -ldflags</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">version</span>
 <span style="color:#66d9ef">var</span> (
